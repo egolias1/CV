@@ -1,0 +1,269 @@
+%------------------------
+% Resume Template
+% Author : Anubhav Singh
+% Github : https://github.com/xprilion
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\setlength{\headheight}{2cm}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+
+%Commands below eliminate the line below the header and above the footer that separate them from the text
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\publication}[2]{
+  \item\small{
+    \textbf{#1}{, #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\newcommand{\publicationSubItem}[2]{\publication{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\RequirePackage{xcolor}
+\definecolor{highlight}{RGB}{61, 90, 128}
+
+\newcommand{\skills}[1]{ {\bfseries #1}}
+
+\def\name{Elliot Golias} % Name Here
+\def\phone{(440) 429-5737}
+\def\city{somewhere, state}
+\def\email{elliot.golias@case.edu}
+\def\LinkedIn{egolias} % linkedin.com/in/______
+\def\github{egolias} % github username
+\def\role{Theoretical Particle Physics PhD Student} % JOB TITLE
+
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+%	\lhead{\phone \\ \href{mailto:\email}{\email}}
+%	
+%	\chead{{\Huge \skills \name \vspace{.25em}} \\ 
+%	    {\color{highlight} \Large{\role}}}
+%	
+%	\rhead{Portfolio: \href{https://egolias.com}{ egolias.com}\\ % Portfolio
+%	    \href{https://github.com/\github}{github.com/\github} \\% Github
+%	    \href{https://www.linkedin.com/in/\LinkedIn}{linkedin.com/in/\LinkedIn} }% LinkedIn
+
+
+%\RequirePackage{fancyhdr}
+%\fancypagestyle{fancy}{%
+%\fancyhf{}
+%\lhead{\phone \\ % PHONE    
+%        %\city \\ % city
+%	    \href{mailto:\email}{\email}} % EMAIL}
+%	\chead{%
+%	    \centering {\Huge \skills \name \vspace{.25em}} \\ % feel free to adjust vspace to 0 
+%	    {\color{highlight} \Large{\role}}}%
+%	    \rhead{Portfolio: \href{https://mathtodata.com}{ MathtoData.com}\\ % Portfolio
+%	    \href{https://github.com/\github}{github.com/\github} \\% Github
+%	    \href{https://www.linkedin.com/in/\LinkedIn}{linkedin.com/in/\LinkedIn}} % LinkedIn
+%\renewcommand{\headrulewidth}{1pt}% 2pt header rule
+%\renewcommand{\headrule}{\hbox to \headwidth{%
+%  \color{highlight} \leaders \hrule height \headrulewidth \hfill}}
+%%}
+%
+%%\pagestyle{fancy}
+%
+%\setlength{\headheight}{90pt}
+%\setlength{\headsep}{5pt}
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\Huge Elliot Golias}} & Email: \href{mailto:}{elliot.golias@case.edu}\\
+  \href{https://egolias.com}{Portfolio: egolias.com} & Mobile:~~~(440) 429 - 5737 \\
+  \href{https://github.com/egolais1}{Github: ~~github.com/egolias1} \\
+\end{tabular*}
+
+
+	    %\vspace{5cm}
+
+%-----------EDUCATION-----------------
+\section{~~Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Case Western Reserve University}{Cleveland, Ohio}
+      {PhD - Theoretical Particle Physics;  GPA: 3.87/4.00}{August 2016 - August 2022}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Thesis:} Phenomenological and Cosmological Aspects of Theories for Physics Beyond the Standard Model}}}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Awards, Service, \& Outreach:} Physics Underrepresented Minorities Student Organization Mentor, Physics Graduate Student Association Website Admin., Center for Education and Research in Cosmology Seminar Coordinator, Hathaway Brown School Science Research and Engineering Program}}}
+      \resumeSubheading
+       {Kent State University}{Kent, Ohio}
+      {BS - Physics, BA - Mathematics, Minor - Italian Language and Culture;  GPA: 3.89/4.00}{August 2013 - May 2016}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Thesis:} Optical Reflectivity and Dynamic Light Scattering Study in Thin Smectic-A Liquid Crystal Films}}}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Awards, Service, \& Outreach:} Phi Beta Kappa, College of Arts and Sciences Distinguished Leadership Award for Mathematics and Physics, Society of Physics Students President, Undergraduate Mathematics Club President, Pearson Award in Physics, John Wiley Award in Physics, Center for Nuclear Research Award}}}
+    \resumeSubHeadingListEnd
+	    
+\vspace{-5pt}
+\section{Skills Summary}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{~~~~~~Python, LaTeX, C++, MATLAB, Java, SQL}
+	\resumeSubItem{Frameworks}{~~~\hspace{0.05cm}Scikit, Pandas, NLTK, TensorFlow, PyTorch, Qiskit, Pandas, Matplotlib, and more}
+	\resumeSubItem{Tools}{~~~~~~~~~~~~~\hspace{0.05cm}GIT, Mathematica, Microsoft Office}
+	\resumeSubItem{Platforms}{~~~~~~~Linux, Web, Windows, Mac, AWS, HPC Cluster, Twitter API, Alpaca API}
+	\resumeSubItem{Foreign Languages}{~~~English (Native), Italian (Professional), Portuguese (Professional), French (Professional)}
+
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading{Case Western Reserve University - Department of Physics}{Cleveland, Ohio}
+    {Graduate Teaching Assistant (Full-time)}{August 2018 - Present}
+    \resumeItemListStart
+        \resumeItem{Description:}
+          {Teach and supervise undergraduate introductory physics labs in addition to grading for a variety of undergraduate and graduate-level physics courses}
+      \resumeItemListEnd
+%\vspace{-5pt}
+    \resumeSubheading
+		{Kent State University - Academic Success Center}{Kent, Ohio}
+		{Physics and Mathematics Tutor (Part-time)}{August 2014 -  May 2016}
+		\resumeItemListStart
+        \resumeItem{Description}{Tutor students (individually and in group sessions) in undergraduate physics and mathematics courses}
+		\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Selected Publications}
+\resumeSubHeadingListStart
+\publicationSubItem{Two-Higgs-Doublet Model and Quark-Lepton Unification}{Pavel Fileviez Perez, Elliot Golias, Alexis D. Plascencia, ArXiv: 2205.02235 (2022).}{Preprint soon to be published}
+\vspace{2pt}
+\publicationSubItem{Probing Quark-Lepton Unification with Leptoquark and Higgs Decays}{Pavel Fileviez Perez, Elliot Golias, Alexis D. Plascencia, Physical Review D 105 (2022), 075011}
+\vspace{2pt}
+\publicationSubItem{The Higgs and Leptophobic Force at the LHC}{Pavel Fileviez Perez, Elliot Golias, Alexis D. Plascencia, Journal of High Energy Physics 07 (2020) 087}
+\vspace{2pt}
+\publicationSubItem{On Anomaly-Free Dark Matter Models}{Pavel Fileviez Perez, Elliot Golias, Rui-Hao Li, Clara Murgui, Alexis D. Plascencia, Physical Review D 100 (2019), 015017}
+\vspace{2pt}
+\publicationSubItem{Leptophobic Dark Matter and the Baryon Number Violation Scale}{Pavel Fileviez Perez, Elliot Golias, Rui-Hao Li, Clara Murgui, Physical Review D 99 (2019), 035009}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+\section{Additional Research Projects}
+\resumeSubHeadingListStart
+\resumeSubItem{Twitter Sentiment Analysis and Mean Reversion of Cryptocurrency Prices}{(Work in Progress) Collection of tweets and cryptocurrency data analysis of sentiment using a continuous bag of words model and implementation of a machine learning model to find correlations between global sentiment and ETH prices. Tech: Python, TensorFlow, Pytorch (June '22)}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+%%-----------Awards-----------------
+%\section{Honors and Awards}
+%	\resumeSubHeadingListStart
+%			\resumeSubheading
+%			{Distinguished Student Leadership Award}{Kent State University}
+%			{Award recognizing student leadership work in the physics and mathematics departments}{April 2016}
+%			\resumeSubheading
+%			{Pearson Award in Physics}{Kent State University}
+%			{Award recognizing graduating physics major with the highest GPA}{April 2016}
+%			\resumeSubheading
+%			{Pi Mu Epsilon Award for Outstanding Presentation (MathFest 2015)}{American Mathematical Society}
+%			{Research Presentation: Geometry to Number Theory: Minkowski's Theorem}{August 2015}
+%			\resumeSubheading
+%			{Department of Modern and Classical Language Studies Prize in Italian}{Kent State University}
+%			{Award recognizing outstanding achievement in Italian language and culture courses}{April 2015}
+%			\vspace{5pt}
+%			\resumeSubheading
+%			{Center for Nuclear Research Award}{Kent State University}
+%			{Award recognizing the top student in nuclear and particle physics courses}{February 2015}
+%			\vspace{5pt}
+%			\resumeSubheading
+%			{John Wiley Award in Physics}{Kent State University}
+%			{Award recognizing the top student in first-year physics courses}{April 2014}
+%	\resumeSubHeadingListEnd
+%\vspace{-5pt}
+%\section{Service and Outreach}
+%  \resumeSubHeadingListStart
+%	\resumeSubheading
+%    {Physics Underrepresented Minority Student Group Mentor Program (CWRU)}{}
+%    {Case Western Reserve University}{Jan 2019 - Present}
+%\vspace{5pt}
+%    % \vspace{10pt}\textbf{\large{Community Experience}}
+%    \resumeSubheading
+%    {Science Olympiad Event Supervisor}{}
+%    {Organized events, conducted workshops and delivered workshops reaching over 7000 developers.}{Jan 2020 - Apr 2022}
+%    \vspace{5pt}
+%    % \vspace{10pt}\textbf{\large{Community Experience}}
+%    \resumeSubheading
+%    {Website Admin. - Physics Graduate Student Association}{}
+%    {Organized events, conducted workshops and}{Apr 2019 - Apr 2021}
+%    \vspace{5pt}
+%     \resumeSubheading
+%    {Science Research and Engineering Program, Hathaway Brown School}{}
+%    {Advised high school student on a theoretical particle physics project (now at Caltech)}{Aug 2018 - May 2021}
+%    \vspace{5pt}
+%    % \vspace{10pt}\textbf{\large{Community Experience}}
+%    \resumeSubheading
+%    {BLV 2020 Conference Organizing Committee Member}{}
+%    {Organized events, conducted workshops and delivered workshops reaching over 7000 developers.}{Jan 2018 - Present}
+%    \vspace{5pt}
+%    % \vspace{10pt}\textbf{\large{Community Experience}}
+%    \resumeSubheading
+%    {Cleveland Clinic Volunteer Program}{}
+%    {Cleveland Clinic Children's Hospital; Pediatric Hematology/Oncology, Radiology}{August 2016 - May 2017}
+%
+%\resumeSubHeadingListEnd
+
+\end{document}
