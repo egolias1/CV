@@ -1,0 +1,63 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fontspec}
+\setlength{\parskip}{0.5em}
+
+\setmainfont{Arial}
+
+\begin{document}
+
+\begin{center}
+{\Huge \textbf{John Doe}} \\
+\end{center}
+
+\begin{center}
+\begin{tabular}{@{}l@{\hspace{6ex}}l}
+\textbf{Phone:} & (123) 456-7890 \\
+\textbf{Email:} & \href{mailto:john.doe@example.com}{john.doe@example.com} \\
+\textbf{LinkedIn:} & \href{https://linkedin.com/in/johndoe}{linkedin.com/in/johndoe} \\
+\textbf{GitHub:} & \href{https://github.com/johndoe}{GitHub} \\
+\textbf{Website:} & \href{https://johndoe.com}{johndoe.com} \\
+\end{tabular}
+\end{center}
+
+\section*{Education}
+\textbf{PhD in Theoretical Particle Physics} \hfill \textbf{Month Year} \\
+University Name, City, State
+
+\begin{itemize}[leftmargin=0.5cm]
+  \item Published five papers in prestigious peer-reviewed journals.
+  \item Presented research findings at international conferences.
+\end{itemize}
+
+\section*{Skills}
+\begin{itemize}[leftmargin=0.5cm]
+  \item Advanced knowledge of quantitative analysis, statistical modeling, and data interpretation.
+  \item Proficient in Python, C++, and MATLAB.
+  \item Extensive experience with deep learning techniques.
+  \item Strong background in stochastic calculus, statistics, and probability theory.
+  \item Preparing for Level 1 CFA exam (Nov 2023).
+\end{itemize}
+
+\section*{Quantitative Research and Machine Learning Projects}
+\textbf{Financial Market Modeling using Hidden Markov Models} \hfill \textit{GitHub:} \href{https://github.com/johndoe/project1}{GitHub}
+
+Developed a hidden Markov model to analyze and predict financial market states, incorporating volatility and regime shifts. Implemented the model in Python, using real-time market data to estimate hidden states and generate trading signals. Conducted backtesting and performance evaluation to assess the model's effectiveness in capturing market dynamics.
+
+\textbf{Option Pricing and Risk Analysis using Stochastic Models} \hfill \textit{GitHub:} \href{https://github.com/johndoe/project2}{GitHub}
+
+Developed stochastic models, such as geometric Brownian motion and Heston model, to price and analyze options. Implemented the models in Python, simulating price paths and calculating option prices, sensitivities, and risk metrics. Conducted scenario analysis and stress testing to assess the impact of market variables on option portfolios.
+
+\textbf{Automated Pairs Trading Strategy using a Kalman filter to identify Trading Signals} \hfill \textit{GitHub:} \href{https://github.com/johndoe/project3}{GitHub}
+
+Developed an automated pairs trading strategy based on statistical arbitrage principles. Used a Kalman filter to identify trading signals and optimize portfolio weights for a pair of correlated assets. Implemented the strategy in Python, integrating real-time data feeds and executing trades through a trading platform.
+
+\section*{Publications}
+\begin{itemize}[leftmargin=0.5cm]
+  \item Doe, J., et al. (Year). "Title of Paper." \textit{Journal of Particle Physics}, 123(4), 567-789.
+  \item Doe, J., et al. (Year). "Title of Paper." \textit{Physical Review Letters}, 456(7), 890-123.
+\end{itemize}
+
+\end{document}
