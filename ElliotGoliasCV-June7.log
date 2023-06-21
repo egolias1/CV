@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.4.7)  21 JUN 2023 12:51
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.4.7)  21 JUN 2023 12:58
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Users/elliotgolias/Documents/GitHub/CV/ElliotGoliasCV-June7.tex
@@ -411,12 +411,12 @@ Here is how much of LuaTeX's memory you used:
  100000,662416 words of node,token memory allocated
  421 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 51 glue_spec, 4 attribute_list, 1 write nodes
-   avail lists: 2:378,3:91,4:3,5:58,6:29,7:2656,8:14,9:113,10:2,11:234
+   avail lists: 2:378,3:91,4:4,5:58,6:29,7:2687,8:14,9:113,10:3,11:239
  28619 multiletter control sequences out of 65536+600000
  55 fonts using 13841419 bytes
  44i,6n,73p,421b,319s stack positions out of 5000i,500n,10000p,200000b,100000s
 </System/Library/Fonts/Supplemental/Arial Italic.ttf></System/Library/Fonts/Supplemental/Arial.ttf></System/Library/Fonts/Supplemental/Arial Bold.ttf>
-Output written on ElliotGoliasCV-June7.pdf (1 page, 69102 bytes).
+Output written on ElliotGoliasCV-June7.pdf (1 page, 69138 bytes).
 
 PDF statistics: 46 PDF objects out of 1000 (max. 8388607)
  33 compressed objects within 1 object stream
